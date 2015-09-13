@@ -1,0 +1,64 @@
+$border = #c83232 solid;
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    padding: 20px;
+
+    transform: translate(-50%, -50%);
+
+    border: $border 1px;
+    border-right: none;
+}
+
+.card:after {
+    position: absolute;
+    top: -19px;
+    right: -85px;
+
+    width: 129px;
+    height: 129px;
+
+    content: '';
+    transform: rotate(45deg);
+    transform-origin: 0;
+
+    border: $border;
+    border-width: 1px 1px 0 0;
+}
+
+.content__logo {
+    float: left;
+
+    margin-right: 25px;
+}
+
+.logo {
+    display: block;
+
+    margin-top: 50%;
+}
+
+.info {
+    float: right;
+
+    &__name {
+        font-size: 20px;
+    }
+}
+
+.contacts {
+    margin-top: 15px;
+
+    &__address {
+        margin-bottom: 5px;
+    }
+
+    &__email {
+        margin-top: 10px;
+    }
+}
+
+
