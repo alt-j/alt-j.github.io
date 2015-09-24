@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: fixed;
+
+    min-width: 100%;
+    min-height: 100%;
+
+    background: url(./images/background.png) no-repeat;
+    background-size: cover;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    box-sizing: border-box;
+    width: 450px;
+    height: 200px;
+    padding: 20px;
+    padding: 20px;
+
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    background: url(./images/card-background.svg) no-repeat;
+}
+
+.content__logo {
+    float: left;
+
+    margin-right: 25px;
+}
+
+.logo {
+    display: block;
+
+    margin-top: 50%;
+}
+
+.info {
+    float: right;
+
+    margin-right: 100px;
+}
+
+.info__name {
+    font-size: 20px;
+}
+
+.contacts {
+    margin-top: 15px;
+}
+
+.contacts__address {
+    margin-bottom: 5px;
+}
+
+.contacts__email {
+    margin-top: 10px;
+}
