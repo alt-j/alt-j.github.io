@@ -20,12 +20,13 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
+    
+    display: flex;
 
     box-sizing: border-box;
     width: 450px;
     height: 200px;
-    padding: 20px;
-    padding: 20px;
+    padding: 20px 15px;
 
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -35,21 +36,12 @@ body {
 }
 
 .content__logo {
-    float: left;
-
-    margin-right: 25px;
+    padding-right: 25px;
 }
 
 .logo {
     display: block;
-
     margin-top: 50%;
-}
-
-.info {
-    float: right;
-
-    margin-right: 90px;
 }
 
 .info__name {
